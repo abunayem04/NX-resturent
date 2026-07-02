@@ -24,13 +24,28 @@
     <hr><hr>
 
     <h1 style="text-align: center; font-family: Arial, sans-serif; color: #090468;">Order Your Favorite Dish</h1>
-    <form style="text-align: center; font-family: Arial, sans-serif; color: #090468;" action="submit_order.php" method="post">
+    <form style="text-align: center; font-family: Arial, sans-serif; color: #090468;"> 
         <label for="dish">Select Dish:</label>
         <select id="dish" name="dish">
             <option value="egg_salad">Egg Salad</option>
             <option value="chicken_salad">Chicken Salad</option>
             <option value="pasty_cake">Pasty Cake</option>
             <option value="cheese_burger">Cheese Burger</option>
+            <option value="hot_coffee">Hot Coffee</option>
+            <option value="cold_coffee">Cold Coffee</option>
+            <option value="bread">Bread</option>
+            <option value="beef_steak">Beef Steak</option>
+            <option value="vegetable_soup">Vegetable Soup</option>
+            <option value="fruit_salad">Fruit Salad</option>
+            <option value="grilled_fish">Grilled Fish</option>
+            <option value="spaghetti_bolognese">Spaghetti Bolognese</option>
+            <option value="chicken_parmesan">Chicken Parmesan</option>
+            <option value="shrimp_scampi">Shrimp Scampi</option>
+            <option value="filet_mignon">Filet Mignon</option>
+            <option value="caesar_salad">Caesar Salad</option>
+            <option value="vegetable_stir_fry">Vegetable Stir-Fry</option>
+            <option value="margherita_pizza">Margherita Pizza</option>
+
         </select><br><br>
 
         <label for="quantity">Quantity:</label>
@@ -38,10 +53,17 @@
 
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+        <label for="numbar">Number</label>
+        <input type="tel" id="numbar" name="email" placeholder=" your numbar" required>
+        <br><br>
 
         <label for="address">Delivery Address:</label>
         <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
 
         <input type="submit" value="Place Order">
+    </form>
+    <hr><hr>
 </body>
 </html>
